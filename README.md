@@ -1,9 +1,22 @@
 # Deep-Reinforcement-Learning-Robot-Navigation
 ## Introduction
 
+In this project, we will train an agent to navigate and collect the maximum number of yellow bananas in a square world.
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to select actions best. Four discrete actions are available, corresponding to:
+
+- `0` - walk forward 
+- `1` - walk backward
+- `2` - turn left
+- `3` - turn right
+
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
 ## Getting Started 
 
-To set up your python environment to run the code in this repository, follow the instructions below.
+To set up your Python environment to run the code in this repository, follow the instructions below.
 
 1. Create (and activate) a new environment with Python 3.6.
 
@@ -35,7 +48,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
 6. Download the Unity Environment
-   Download the file according to your computer's specifications
+   Download the file according to your computer's specifications.
 
    Linux: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
    Mac OSX: click [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -47,4 +60,5 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
    (For Windows users) Check out this [link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
 7. Open the Notebook
-   Now you are ready to run the code. `cd` to the folder where the notebook is saved and run `jupyter notebook` in the terminal to open the notebook
+
+Now you are ready to run the code. `cd` to the folder where the notebook is saved and run `jupyter notebook` in the terminal to open the notebook
