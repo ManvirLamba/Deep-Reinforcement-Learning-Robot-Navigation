@@ -1,0 +1,6 @@
+import os
+def install_torch(version="0.4.0"):
+    """Installs Torch version `version`."""
+    os.system(f"pip install torch=={version}")
+if __name__ == "__main__":
+    install_torch()
