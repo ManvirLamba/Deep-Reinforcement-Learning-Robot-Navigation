@@ -67,4 +67,5 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 Now you are ready to run the code. `cd` to the folder where the notebook is saved and run `jupyter notebook` in the terminal to open the notebook
 ## Rewards Plot
 ![Alt Text](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Media/RewardsPlot.png)
-
+## Project Report
+The detailed report for this project can be seen [here](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Report.pdf).
