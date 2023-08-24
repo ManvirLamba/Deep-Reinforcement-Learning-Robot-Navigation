@@ -6,7 +6,7 @@ The GIF above displays a trained agent solving the environment.
 
 In this project, we will train an agent to navigate and collect the maximum number of yellow bananas in a square world.
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to select actions best. Four discrete actions are available, corresponding to:
 
@@ -15,7 +15,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - `2` - turn left
 - `3` - turn right
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Getting Started 
 
