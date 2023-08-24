@@ -1,5 +1,8 @@
 # Deep-Reinforcement-Learning-Robot-Navigation
 ## Introduction
+![Alt Text](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Media/TrainedAgent.gif)
+
+The GIF above displays a trained agent solving the environment. 
 
 In this project, we will train an agent to navigate and collect the maximum number of yellow bananas in a square world.
 
@@ -62,3 +65,6 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 7. Open the Notebook
 
 Now you are ready to run the code. `cd` to the folder where the notebook is saved and run `jupyter notebook` in the terminal to open the notebook
+## Rewards Plot
+![Alt Text](https://github.com/ManvirLamba/Deep-Reinforcement-Learning-Robot-Navigation/blob/main/Media/RewardsPlot.png)
+
